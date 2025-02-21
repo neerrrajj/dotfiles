@@ -1,0 +1,43 @@
+theme = catppuccin-mocha
+gtk-titlebar = false
+# window-decoration = false
+window-padding-x = 10,10
+window-padding-y = 10,10
+window-padding-balance = true
+resize-overlay = never
+confirm-close-surface = false
+
+shell-integration-features = no-cursor
+cursor-style = underline
+
+window-width=104
+window-height=28
+
+background = #0A0A0A
+background-opacity = 1
+unfocused-split-opacity = 0.9
+#background-blur = 20
+# split-divider-color = #ffffff
+
+font-size = 11
+title = "  "
+
+keybind = ctrl+alt+right=new_split:right
+keybind = ctrl+alt+left=new_split:left
+keybind = ctrl+alt+up=new_split:up
+keybind = ctrl+alt+down=new_split:down
+
+keybind = ctrl+shift+right=goto_split:right
+keybind = ctrl+shift+left=goto_split:left
+keybind = ctrl+shift+up=goto_split:top
+keybind = ctrl+shift+down=goto_split:bottom
+
+keybind = ctrl+shift+alt+up=resize_split:up,10
+keybind = ctrl+shift+alt+down=resize_split:down,10
+keybind = ctrl+shift+alt+right=resize_split:right,10
+keybind = ctrl+shift+alt+left=resize_split:left,10
+
+keybind = ctrl+shift+f=toggle_split_zoom
+keybind = ctrl+shift+m=toggle_fullscreen
+
+keybind = ctrl+shift+y=toggle_window_decorations
